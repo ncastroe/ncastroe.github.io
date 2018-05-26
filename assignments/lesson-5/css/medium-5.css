@@ -1,0 +1,60 @@
+@media only screen and (max-width: 37.5em) {
+
+    
+ 
+    
+    section.forecast { ______ }  /* show the 10-day forecast with the medium view and up */
+
+    nav {
+        width: 100%;
+	   float: left;
+	   margin: 0 0 1em 0;
+	   padding: 0;
+        text-align: center;
+    }
+    
+    main figure img {
+        width: 100%;
+        display: inline;
+        margin: 0 !important;
+    }
+    
+    .weather-summary {
+        margin: 2em 0 0 0;
+    }
+    
+    li a {
+        display: block;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #63636364;
+    }
+
+    li a:enabled {
+        display: block;
+        color: white !important;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #a8a8a8;
+    }
+
+    li a:active {
+        background-color: #29C5DA;
+        color: white !important;
+    }
+    
+    article img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .forecast {
+        display: none;
+    }
+  }
