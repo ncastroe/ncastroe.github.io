@@ -1,25 +1,32 @@
 @media only screen and (max-width: 37.5em) {
 
-    
- 
-    
-    section.forecast { ______ }  /* show the 10-day forecast with the medium view and up */
 
+    header img {
+        width: 65%;
+        top: 0;
+        left: 0;
+    }
+    
     nav {
         width: 100%;
-	   float: left;
-	   margin: 0 0 1em 0;
-	   padding: 0;
+	    float: left;
+	    margin: 0 0 1em 0;
+	    padding: 0;
         text-align: center;
+    }
+    
+    nav ul li a {
+        padding: 1.1em 0 !important;
     }
     
     main figure img {
         width: 100%;
         display: inline;
-        margin: 0 !important;
+        margin: 0 0 2em 0 !important;
     }
     
     .weather-summary {
+        display: inline;
         margin: 2em 0 0 0;
     }
     
