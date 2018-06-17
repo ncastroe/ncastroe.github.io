@@ -59,4 +59,8 @@
         color: white !important;
     }
 
+    
+    form {
+    width: 95%;
+    }
   }
