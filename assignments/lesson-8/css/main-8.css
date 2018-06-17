@@ -183,3 +183,41 @@ hr {
     margin: 0 0 0 0;
     padding: 1em;
 }
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery {
+    width: 380px;
+    margin: 1em;
+    background-color: #DBDBDB;
+    border-radius: 10px;
+    padding: 1em;
+    transition: all .2s ease-in-out;
+}
+
+.gallery:hover {
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+
+.gallery:hover img {
+       box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery a {
+    text-decoration: none;
+    color: white;
+    padding: 0.7em;
+    background-color: #EFC233;
+    border-radius: 3px;
+}

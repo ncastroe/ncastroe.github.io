@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | iWeather</title>
+  <meta name="description" content="Get an accurate forecast for you everyday.">   
+  <link href="https://fonts.googleapis.com/css?family=Lato|NTR" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main-8.css" rel="stylesheet">   
+  <link href="css/medium-8.css" rel="stylesheet">
+  <link href="css/large-8.css" rel="stylesheet">
+  <script src="js/currentdate.js"></script>
+  <script src="js/hamburger.js"></script>
+</head>
+<body>
+
+<header>
+    <img alt="logo" src="images/weather.png" width="400px" height="auto;">  
+    </header>
+    
+  <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul class="hide" id="primaryNav">
+    	<li><a href="franklin-7.html">Home</a></li>
+    	<li><a href="#">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-8.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <div class="gallery-container">
+      <div class="gallery">
+        <img src="images/1.jpg">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+          <a href="#">View more ></a>
+        </div>
+      <div class="gallery">
+        <img src="images/2.jpg">
+          <h3>Integer tincidunt.</h3>
+          <p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+          <a href="#">View more ></a>
+        </div>
+      <div class="gallery">
+        <img src="images/3.jpg">
+          <h3>Maecenas tempus.</h3>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+          <a href="#">View more ></a>
+        </div>
+      <div class="gallery">
+        <img src="images/4.jpg">
+          <h3>Leo eget bibendum sodales.</h3>
+          <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.</p>
+          <a href="#">View more ></a>
+        </div>
+      <div class="gallery">
+        <img src="images/5.jpg">
+          <h3>Duis arcu tortor.</h3>
+          <p>Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus.</p>
+          <a href="#">View more ></a>
+        </div>
+      <div class="gallery">
+        <img src="images/6.jpg">
+          <h3>Sed aliquam ultrices mauris.</h3>
+          <p>Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit.</p>
+          <a href="#">View more ></a>
+        </div>      
+      </div>
+    </main>
+  <footer>
+    <section class="contact">
+      <p>iWeather | Contact Us
+        <br><br>
+      Telephone 554.967.1332
+        <br><br>
+      123 Main St. Anytown, MX 67150
+      Google Map
+        </p>
+        <hr>
+    </section>  
+      <section class="footer-bar"><small>&copy;2018 | All Rights Reserved | iWeather | <span id="currentdate"></span></small>
+    </section>
+  </footer>
+    
+<script>currentDate();</script>  
+</body>
+</html>
