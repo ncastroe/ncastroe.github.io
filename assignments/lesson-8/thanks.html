@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storm Center | iWeather</title>
+  <meta name="description" content="Get an accurate forecast for you everyday.">   
+  <link href="https://fonts.googleapis.com/css?family=Lato|NTR" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">   
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <script src="js/currentdate.js"></script>
+  <script src="js/hamburger.js"></script>
+  <script>
+    function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;}   
+    </script>
+</head>
+<body>
+
+<header>
+    <img alt="logo" src="images/weather.png" width="400px" height="auto;">  
+    </header>
+    
+  <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+    <ul class="hide" id="primaryNav">
+    	<li><a href="franklin-8.html">Home</a></li>
+    	<li><a href="#">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="#">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+      <div class="message"><h1>Thank you! Your report has been sent.</h1></div> 
+    
+    </main>
+    
+  <footer>
+    <section class="contact">
+      <p>iWeather | Contact Us
+        <br><br>
+      Telephone 554.967.1332
+        <br><br>
+      123 Main St. Anytown, MX 67150
+      Google Map
+        </p>
+        <hr>
+    </section>  
+      <section class="footer-bar"><small>&copy;2018 | All Rights Reserved | iWeather | <span id="currentdate"></span></small>
+    </section>
+  </footer>
+    
+<script>currentDate();</script>  
+</body>
+</html>
